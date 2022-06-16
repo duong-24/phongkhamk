@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    height: 910px;
+    background-image: url(../images/login/bg_login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 397px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+form h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    /* font-size: normal; */
+    font-weight: 700;
+    line-height: 39px;
+    color: #222f3e;
+}
+form h4 a {
+    color: #4834d4;
+    font-weight: 600;
+}
+form #uname, form #pwd, form #rpwd, form #txtemail {
+    height: 51px;
+    width: 95%;
+    margin: 10px 10px ;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #fff;
+
+}
+.btn-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+.btn-form input {
+    background-color: #218372;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #fff;
+
+}
+
+.btn-form .btn-login {
+    height: 51px;
+    width: 95%;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn-form span {
+    text-align: center;
+    padding:0 10px; 
+    margin: 5px;
+    font-size: 1.1rem;
+}
+.btn-form button {
+    border: 2px solid #218372;
+}
+.btn-form i {
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+.btn-form a:first-child {
+    font-size: 1.2rem;
+    line-height: 1rem;
+}
+
+.btn-icon {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display:flex;
+}
+.btn-icon img {
+    width: 8%;
+    margin-left: 115px;
+}
+.btn-icon_google {
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#218372;
+}
+.btn-form h4 {
+    margin: 10px;
+    text-align: end;
+    font-weight: 500;
+}
